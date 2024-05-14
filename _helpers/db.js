@@ -29,5 +29,5 @@ async function initialize() {
     db.sequelize = sequelize;
 
     // sync all models with database
-    await sequelize.sync({ alter: true});
+    // await sequelize.sync({ alter: true});
 }
